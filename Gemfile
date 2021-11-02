@@ -43,6 +43,8 @@ group :development, :test do
   gem 'rubocop-performance', require: false
   # Rubocop RSpec extension
   gem 'rubocop-rspec', require: false
+  # To create a factory
+  gem 'factory_bot_rails'
 end
 
 group :development do

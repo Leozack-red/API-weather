@@ -28,5 +28,3 @@ module Accuweather
     end
   end
 end
-
-
