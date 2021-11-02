@@ -1,0 +1,92 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://dataservice.accuweather.com/currentconditions/v1/295212/historical/24?apikey=Q91WSHAJ3MLkmjXs8j7QoZGGtbuyaJvU
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - rest-client/2.1.0 (linux x86_64) ruby/3.0.1p64
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - dataservice.accuweather.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 02 Nov 2021 18:04:12 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=600
+      Expires:
+      - Tue, 02 Nov 2021 18:14:12 GMT
+      Vary:
+      - Accept-Encoding
+      Ratelimit-Limit:
+      - '50'
+      Ratelimit-Remaining:
+      - '34'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, accept
+      Access-Control-Max-Age:
+      - '3628800'
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - deflate;q=0.6
+      - gzip;q=1.0
+      - identity;q=0.3
+      Host:
+      - accuweather-api.trafficmanager.net
+      User-Agent:
+      - rest-client/2.1.0 (linux x86_64) ruby/3.0.1p64
+      X-Forwarded-For:
+      - 146.120.77.28
+      X-Forwarded-Port:
+      - '80'
+      X-Forwarded-Proto:
+      - http
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"LocalObservationDateTime":"2021-11-02T20:56:00+03:00","EpochTime":1635875760,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":3.9,"Unit":"C","UnitType":17},"Imperial":{"Value":39.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T20:06:00+03:00","EpochTime":1635872760,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":3.9,"Unit":"C","UnitType":17},"Imperial":{"Value":39.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T18:55:00+03:00","EpochTime":1635868500,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":37.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T17:56:00+03:00","EpochTime":1635864960,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":41.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T16:56:00+03:00","EpochTime":1635861360,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":41.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T15:56:00+03:00","EpochTime":1635857760,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":41.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T14:56:00+03:00","EpochTime":1635854160,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":41.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T13:55:00+03:00","EpochTime":1635850500,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":41.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T12:56:00+03:00","EpochTime":1635846960,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":3.9,"Unit":"C","UnitType":17},"Imperial":{"Value":39.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T12:06:00+03:00","EpochTime":1635843960,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":3.9,"Unit":"C","UnitType":17},"Imperial":{"Value":39.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T10:56:00+03:00","EpochTime":1635839760,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":37.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T09:56:00+03:00","EpochTime":1635836160,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":37.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T08:56:00+03:00","EpochTime":1635832560,"WeatherText":"Mostly
+        sunny","WeatherIcon":2,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":6.1,"Unit":"C","UnitType":17},"Imperial":{"Value":43.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T07:56:00+03:00","EpochTime":1635828960,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":0.0,"Unit":"C","UnitType":17},"Imperial":{"Value":32.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T06:55:00+03:00","EpochTime":1635825300,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":0.0,"Unit":"C","UnitType":17},"Imperial":{"Value":32.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T05:55:00+03:00","EpochTime":1635821700,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":1.1,"Unit":"C","UnitType":17},"Imperial":{"Value":34.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T04:56:00+03:00","EpochTime":1635818160,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":2.2,"Unit":"C","UnitType":17},"Imperial":{"Value":36.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T03:55:00+03:00","EpochTime":1635814500,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":2.2,"Unit":"C","UnitType":17},"Imperial":{"Value":36.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T02:56:00+03:00","EpochTime":1635810960,"WeatherText":"Clear","WeatherIcon":33,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":6.0,"Unit":"C","UnitType":17},"Imperial":{"Value":43.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T01:56:00+03:00","EpochTime":1635807360,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":6.4,"Unit":"C","UnitType":17},"Imperial":{"Value":44.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-02T01:06:00+03:00","EpochTime":1635804360,"WeatherText":"Light
+        fog","WeatherIcon":11,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":37.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-01T23:56:00+03:00","EpochTime":1635800160,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":41.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-01T22:56:00+03:00","EpochTime":1635796560,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":6.1,"Unit":"C","UnitType":17},"Imperial":{"Value":43.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"},{"LocalObservationDateTime":"2021-11-01T21:56:00+03:00","EpochTime":1635792960,"WeatherText":"Mostly
+        cloudy","WeatherIcon":38,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":6.1,"Unit":"C","UnitType":17},"Imperial":{"Value":43.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us","Link":"http://www.accuweather.com/en/ru/saint-petersburg/295212/current-weather/295212?lang=en-us"}]'
+  recorded_at: Tue, 02 Nov 2021 18:04:12 GMT
+recorded_with: VCR 6.0.0
