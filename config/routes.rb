@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  namespace 'api' do
+    namespace 'v1' do
+      root 'current_weather#index'
+      resources :current_weather, only: %i[index], path: 'weather/current'
+    end
+  end
 end
