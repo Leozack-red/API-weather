@@ -5,7 +5,10 @@ require 'rails_helper'
 RSpec.describe MaxWeatherPresenter do
   subject(:instance) { described_class.new }
 
-  before { create_list(:value_weather, 24) }
+  before do
+    create(:value_weather)
+    create(:value_weather, t_value: 3.6)
+  end
 
   describe '#max_temperature' do
     context 'when ValueWeather is not empty' do

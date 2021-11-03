@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       resources :max_weather, only: %i[index], path: 'weather/historical/max'
       resources :min_weather, only: %i[index], path: 'weather/historical/min'
       resources :average_weather, only: %i[index], path: 'weather/historical/avg'
+      resources :by_time_weather, only: %i[index], path: 'weather/by_time'
     end
   end
 end
