@@ -8,12 +8,12 @@ class ByTimeWeatherPresenter
   end
 
   def approximate_time
-    if (inputdatatime > query_temp.min) && (inputdatatime < query_temp.max)
-      array_mod = query_temp.map do |datatime|
-        (datatime - inputdatatime).abs
-      end
-      array_mod.index(array_mod.min)
+    return unless (inputdatatime >= query_temp.min) && (inputdatatime <= query_temp.max)
+
+    array_mod = query_temp.map do |datatime|
+      (datatime - inputdatatime).abs
     end
+    array_mod.index(array_mod.min)
   end
 
   def query_approximation
