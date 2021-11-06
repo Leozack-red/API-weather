@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A small weather API that outputs the current value obtained through the AccuWeather service. The client is covered by rspec tests. Gems vcr and factory were used for testing. Data is loaded using the service object.
+Endpoints for admission:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* /weather/current - Current temperature
+* /weather/historical - Hourly temperature for the last 24 hours
+* /weather/historical/max - Maximum temperature in 24 hours
+* /weather/historical/min - Minimum temperature for 24 hours
+* /weather/historical/avg - Average temperature for 24 hours
+* /weather/by_time - Find the temperature closest to the transmitted timestamp
+* /health - Backend status
